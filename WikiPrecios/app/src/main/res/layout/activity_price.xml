@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="home.myapplication.view.PriceActivity"
+    android:background="@color/bg_app"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_price"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_price"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:id="@+id/price_price"
+        android:layout_below="@+id/title_price"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="65dp">
+        <requestFocus />
+    </EditText>
+
+
+    <TextView
+
+        android:id="@+id/title_query_price"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_below="@+id/price_price"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="46dp" />
+
+    <Button
+        android:id="@+id/btn_continue_price"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_lolipop_bg"
+        android:text="@string/btn_continue"
+        android:textColor="@color/white"
+        android:layout_above="@+id/btn_cancel_price"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btn_cancel_price"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_lolipop_bg"
+        android:text="@string/btn_cancel"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>

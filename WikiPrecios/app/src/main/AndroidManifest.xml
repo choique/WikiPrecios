@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="home.myapplication" >
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+<!--Permisos de la app-->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+<!--COnfiguracion de facebook-->
+        <!--&lt;!&ndash;activity de facebook&ndash;&gt;-->
+        <!--<activity android:name="com.facebook.FacebookActivity"-->
+            <!--android:configChanges=-->
+                <!--"keyboard|keyboardHidden|screenLayout|screenSize|orientation"-->
+            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar"-->
+            <!--android:label="@string/app_name" />-->
+
+
+        <!--<provider android:authorities="com.facebook.app.FacebookContentProvider242704239409337"-->
+        <!--android:name="com.facebook.FacebookContentProvider"-->
+        <!--android:exported="false"/>-->
+
+
+        <!-- Servicios -->
+        <service android:name=".service.LocationService" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyATsIWbrWx_YvwZoomIslOFABHBEFFr4KI" />
+
+        <!-- Activities-->
+        <!--Activity Principal -->
+        <activity
+            android:name=".view.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".view.CameraActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".view.CommerceListViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".view.PriceListViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".view.PriceActivity"
+            android:label="@string/title_activity_price" >
+        </activity>
+        <activity
+            android:name=".view.FavouriteTabbedListViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".view.SuggestedPriceListViewActivity"
+            android:label="@string/title_activity_price_select_list_view" >
+        </activity>
+        <activity
+            android:name=".view.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".view.MenuActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".view.CategoryListViewActivity"
+            android:label="@string/title_activity_rubro_list_view" >
+        </activity>
+        <activity
+            android:name=".view.UserActivity"
+            android:label="@string/title_activity_user" >
+        </activity>
+        <activity
+            android:name=".view.SpecialProductListViewActivity"
+            android:label="@string/title_activity_special_product_list_view" >
+        </activity>
+    </application>
+
+</manifest>

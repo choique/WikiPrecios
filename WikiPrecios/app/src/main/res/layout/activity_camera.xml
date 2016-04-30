@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="@string/title_camera"
+        android:gravity="center"
+        android:id="@+id/title_seggested_price" />
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="318dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/scan_text"
+            android:text="@string/title_scanning"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_scan_camera"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_lolipop_bg"
+            android:text="@string/btn_scan"
+            android:textColor="@color/white"
+            android:onClick="reScan" />
+
+        <Button
+            android:id="@+id/btn_continue_camera"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_lolipop_bg"
+            android:text="@string/btn_continue"
+            android:textColor="@color/white"
+            android:onClick="sendRequest" />
+    </LinearLayout>
+
+</LinearLayout>
