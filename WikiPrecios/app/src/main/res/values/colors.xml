@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App-->
+    <color name="bg_app">#2e3237</color>
+    <color name="btn_lolipop_bg">#009688</color>
+    <color name="white">#ffffff</color>
+    <!--Login-->
+    <color name="bg_login">#26ae90</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <!-- Register-->
+    <!--<color name="bg_main">#428bca</color>-->
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_register_bg">#ea4c88</color>
+    <!-- Logout-->
+    <color name="lbl_name">#333333</color>
+
+</resources>

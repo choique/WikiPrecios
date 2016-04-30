@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">WikiPrecios</string>
+    <string name="app_id">845866858857913</string>
+    <!-- new app id facebook-->
+    <string name="facebook_app_id">242704239409337</string>
+    <!--Login and Register-->
+    <string name="hint_email">Mail</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_surname">Apellido</string>
+    <string name="btn_login">INGRESAR</string>
+    <string name="btn_register">REGISTRAR</string>
+    <string name="btn_link_to_register">¿No es un miembro? Regístrese ahora</string>
+    <string name="btn_link_to_login">¿Ya se ha registrado? Intente ingresar</string>
+    <string name="msg_logging_enter_credential">Por favor, introduzca las credenciales!</string>
+    <string name="msg_logging">Iniciando sesión ...</string>
+    <string name="msg_logging_error">Error de inicio de sesion</string>
+    <string name="msg_logging_json_error"> </string>
+    <string name="msg_register_enter_credential">Por favor, introduzca sus datos </string>
+    <string name="msg_registering">Registrando ...</string>
+    <string name="msg_register_try_login">Intente iniciar sesión ahora</string>
+    <string name="msg_register_json_error">Json error: </string>
+
+    <!-- General-->
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_continue">Continuar</string>
+    <string name="msg_loading">Cargando...</string>
+    <!-- User-->
+    <string name="title_user">Usuario</string>
+    <string name="title_name">Nombre: </string>
+    <string name="title_email">Mail: </string>
+    <string name="title_score">Puntuacion: </string>
+    <string name="title_hits">Acumulado: </string>
+
+    <!-- Menu -->
+    <string name="title_menu">Menu</string>
+    <string name="btn_logout">Cerrar sesión</string>
+    <string name="btn_exit">SALIR</string>
+    <string name="btn_camera">Camara</string>
+    <string name="btn_favourite">Favoritos</string>
+    <string name="btn_special_product">Productos Especiales</string>
+    <string name="btn_user">Mi Sesión</string>
+    <!-- LocationService -->
+    <string name="msg_services_disable">Usted esta fuera de servicio: intente habilitar el gps o verifique su conexion a internet </string>
+
+    <!-- Camera-->
+    <string name="title_camera">Escanee el codigo de barra de un producto</string>
+    <string name="title_scanning">Escaneando...</string>
+    <string name="btn_scan">Escanear</string>
+    <string name="title_barcode">Código de barras: </string>
+    <string name="msg_scan_a_product">Por favor, escanee un producto para continuar </string>
+    <!-- Commerce-->
+    <string name="title_commerce">¿Donde se encuentra?</string>
+
+    <!--Suggested Price-->
+    <string name="title_suggested_price">Ingrese el precio del producto</string>
+    <string name="title_another_price">Otro precio</string>
+    <string name="title_enter_manually">Ingresar manualmente</string>
+
+    <!-- Enter Price-->
+    <string name="title_price">Ingrese el precio del producto</string>
+    <string name="title_name_commerce">Comercio: </string>
+    <string name="title_name_barcode">Codigo de producto: </string>
+    <string name="msg_enter_price">Por favor, ingrese un precio valido</string>
+    <string name="msg_new_product">Gracias por ingresar un nuevo producto al sistema</string>
+    <string name="title_enter">Ingresar...</string>
+
+    <!-- Price -->
+    <string name="title_result_price">Precios en otros comercios</string>
+    <string name="btn_return">Volver </string>
+    <!-- Category -->
+    <string name="title_category">Seleccione una categoria</string>
+
+    <!-- Special Product-->
+    <string name="title_special_product">Seleccione un producto especial</string>
+    <string name="title_search">Buscar producto...</string>
+    <!--Favourites-->
+    <string name="msg_add_to_favourites">¿Desea agregar a comercios favoritos?</string>
+    <string name="msg_remove_from_favourites">¿Desea quitar de comercios favoritos?</string>
+    <string name="btn_add">AGREGAR</string>
+    <string name="btn_remove">QUITAR</string>
+
+
+    <string name="title_activity_price">PriceActivity</string>
+    <string name="title_activity_prefs">PrefsActivity</string>
+    <string name="title_activity_fauvorite">FauvoriteActivity</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_price_select_list_view">PriceSelectListViewActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_rubro_list_view">RubroListViewActivity</string>
+    <string name="title_activity_user">UserActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_special_product_list_view">SpecialProductListViewActivity</string>
+    <string name="action_settings">Settings</string>
+</resources>
